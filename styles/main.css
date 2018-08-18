@@ -149,12 +149,13 @@ header nav ul li:active{
 
 .fourthContainer{
   position: relative;
-  bottom: 17vh /*165px;*/
+  bottom: 17vh; /*165px;*/
 }
 
 .fifthContainer{
   position: relative;
-  bottom: 29vh  /*282px;*/
+  bottom: 30.2vh;  /*282px;*/
+
 }
 
 .sixthContainer{
@@ -162,6 +163,27 @@ header nav ul li:active{
   bottom: 24vh; /*230px;*/
 }
 
+
+/*.seventhContainer{
+  position: absolute;
+  top: 59.1vh;
+  left: 9.5vh ;
+  z-index: 0;
+}
+
+.eighthContainer{
+  position:relative;
+  bottom: 29vh;
+}
+
+.sixthContainer{
+  position: relative;
+  bottom: 24vh;
+}
+
+.secondLeft{
+  position: relative;
+  bottom: 200vh;
 /* *****************
   Main Content
 ***************** */
@@ -188,7 +210,9 @@ header nav ul li:active{
   width: 26%;
 }
 
-#content .sixthContainer{
+#content .sixthContainer,
+#content .ninthContainer
+{
    width: 62.701%;
  }
 /* *****************
