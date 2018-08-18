@@ -1,0 +1,301 @@
+/*
+  main.CSS
+
+  Colors
+  *******
+
+  black: #000000
+  darker gray: #222222
+  dark gray: #333333
+  gray: #444444
+  light gray: #eeeeee
+  light blue: #00c0ff
+  dark blue: #0090bf
+
+*/
+
+/* *****************
+  General Styles
+***************** */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'helvetica', arial, sans-serif;
+  font-size: 1rem;
+  line-height: 16px;
+  color: #222;
+  background: #eee;
+  margin: 0;
+  padding: 0;
+
+  background: radial-gradient(ellipse at center, rgba(219,240,252,1) 0%,rgba(237, 231, 231, 0.98) 90%);
+	background-attachment: fixed;
+	height:100%;
+}
+
+html{
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* *****************
+  Logo
+***************** */
+
+#logo{
+  float: left;
+}
+
+#logo a{
+  color: #000;
+  text-decoration: none;
+  margin: 25px 20px;
+  display: inline-block;
+  font-size: 2.1rem;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+
+  -webkit-text-shadow: 1px 1px 0px rgba(0,0,0,0.75);
+  -moz-text-shadow:    1px 1px 0px rgba(0,0,0,0.75);
+  -o-text-shadow:      1px 1px 0px rgba(0,0,0,0.75);
+  text-shadow:         1px 1px 0px rgba(0,0,0,0.75);
+
+  -webkit-transition: color 0.20s ease-in-out;
+  -moz-transition:    color 0.20s ease-in-out;
+  -o-transition:      color 0.20s ease-in-out;
+  transition:         color 0.20s ease-in-out;
+}
+
+#logo span{
+  color:rgba(81, 119, 189, 0.96);
+
+  -webkit-transition: color 0.20s ease-in-out;
+  -moz-transition:    color 0.20s ease-in-out;
+  -o-transition:      color 0.20s ease-in-out;
+  transition:         color 0.20s ease-in-out;
+}
+
+#logo a:hover{
+  color: rgba(81, 119, 189, 0.96);
+}
+
+#logo span:hover{
+  color: #000;
+}
+
+/* *****************
+  Navigation
+***************** */
+header .navContainer {
+  margin-bottom: 30px;
+}
+
+header nav ul{
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+header nav ul li {
+  list-style: none;
+  float: left;
+  color: rgba(81, 119, 189, 0.96);
+  display: inline-block;
+  margin: 25px 20px;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  -webkit-text-shadow: 1px 1px 0px rgba(0,0,0,0.75);
+  -moz-text-shadow:    1px 1px 0px rgba(0,0,0,0.75);
+  -o-text-shadow:      1px 1px 0px rgba(0,0,0,0.75);
+  text-shadow:         1px 1px 0px rgba(0,0,0,0.75);
+
+  -webkit-transition: color 0.25s ease-in-out;
+  -moz-transition:    color 0.25s ease-in-out;
+  -o-transition:      color 0.25s ease-in-out;
+  transition:         color 0.25s ease-in-out;
+}
+
+header nav ul li:hover{
+  color: #000;
+}
+
+header nav ul li:active{
+  bottom: 1px;
+
+}
+
+
+/* *****************
+  Layout
+***************** */
+
+.container{
+  width: 90%;
+  margin : 0 auto;
+}
+
+.col4{
+  float:left;
+  padding-left:1.2%;
+  padding-right: 2.3%;
+  overflow: hidden;
+}
+
+.fourthContainer{
+  position: relative;
+  bottom: 17vh /*165px;*/
+}
+
+.fifthContainer{
+  position: relative;
+  bottom: 29vh  /*282px;*/
+}
+
+.sixthContainer{
+  position: relative;
+  bottom: 24vh; /*230px;*/
+}
+
+/* *****************
+  Main Content
+***************** */
+
+#content img{
+  min-width: 100%;
+  height: auto;
+
+  -webkit-box-shadow: 2px 6px 18px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow:    2px 6px 18px -5px rgba(0,0,0,0.75);
+  -o-box-shadow:      2px 6px 18px -5px rgba(0,0,0,0.75);
+  box-shadow:         2px 6px 18px -5px rgba(0,0,0,0.75);
+}
+
+#content .leftRow, #content .fourthContainer{
+  width: 37.3%;
+}
+
+#content .middleRow, #content .fifthContainer{
+  width: 36.67%;
+}
+
+#content .rightRow{
+  width: 26%;
+}
+
+#content .sixthContainer{
+   width: 62.701%;
+ }
+/* *****************
+  Footer
+***************** */
+footer{
+  margin: 15px 0;
+
+}
+footer p{
+  float: left;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+
+
+  -webkit-text-shadow: 0 1px 0px rgba(0,0,0,0.75);
+  -moz-text-shadow:    0 1px 0px rgba(0,0,0,0.75);
+  -o-text-shadow:      0 1px 0px rgba(0,0,0,0.75);
+  text-shadow:         0 1px 0px rgba(0,0,0,0.75);
+}
+
+footer nav{
+  float: right;
+}
+
+footer nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul li{
+  list-style: none;
+  float:left;
+  padding: 0 20px;
+  cursor: pointer;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+
+  -webkit-transition: width 0.20s ease-in-out;
+  -moz-transition:    width 0.20s ease-in-out;
+  -o-transition:      width 0.20s ease-in-out;
+  transition:         width 0.20s ease-in-out;
+
+  -webkit-text-shadow: 0 1px 0px rgba(0,0,0,0.75);
+  -moz-text-shadow:    0 1px 0px rgba(0,0,0,0.75);
+  -o-text-shadow:      0 1px 0px rgba(0,0,0,0.75);
+  text-shadow:         0 1px 0px rgba(0,0,0,0.75);
+}
+
+footer nav ul li:hover{
+  color: rgba(81, 119, 189, 0.96);
+
+}
+
+footer nav ul li:active{
+  color: #000;
+
+}
+/* *****************
+  Footer social
+***************** */
+footer #socialFooter{
+  display: inline;
+  position: absolute;
+  right: 80vh;
+}
+footer #socialFooter ul{
+margin: 0;
+padding: 0;
+}
+footer #socialFooter ul li{
+  list-style: none;
+  float: left;
+  padding: 0 15px;
+}
+
+footer #socialFooter ul li img{
+  width: 90%;
+  height:auto;
+
+  -webkit-transition: width 0.20s ease-in-out;
+  -moz-transition:    width 0.20s ease-in-out;
+  -o-transition:      width 0.20s ease-in-out;
+  transition:         width 0.20s ease-in-out;
+}
+
+footer #socialFooter ul li img:hover{
+  width: 100%;
+  height:auto;
+}
+
+/* *****************
+  Global Styles
+***************** */
+
+.clearfix::before,
+.clearfix::after{
+  content: '';
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+.clearfix{
+  zoom: 1;
+}
