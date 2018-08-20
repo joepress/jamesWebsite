@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1440px){
+  #content{
+    width: 1350px;
+    padding-left:none;
+    padding-right: 3.5%; /* 2.3 on home pc */
+  }
+
+  .col4{
+    padding-left:3%;
+  }
+
+  .fourthContainer{
+    position: relative;
+    bottom: 20vh; /*165px;*/
+  }
+
+  .fifthContainer{
+    position: relative;
+    bottom: 33.8vh;  /*282px;*/
+
+  }
+
+  .sixthContainer{
+    position: relative;
+    bottom: 29vh; /*230px;*/
+  }
+
+}

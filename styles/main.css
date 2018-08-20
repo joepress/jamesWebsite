@@ -109,6 +109,7 @@ header nav ul li {
   font-family: 'Dosis', sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
+  opacity: 0.7;
 
   -webkit-text-shadow: 1px 1px 0px rgba(0,0,0,0.75);
   -moz-text-shadow:    1px 1px 0px rgba(0,0,0,0.75);
@@ -138,13 +139,14 @@ header nav ul li:active{
 .container{
   width: 90%;
   margin : 0 auto;
+  overflow: hidden;
 }
 
 .col4{
   float:left;
-  padding-left:1.2%;
-  padding-right: 2.3%;
   overflow: hidden;
+  padding-left:1.2%;
+  padding-right: 2.3%; /* 2.5 on kianie macbook */
 }
 
 .fourthContainer{
@@ -163,39 +165,25 @@ header nav ul li:active{
   bottom: 24vh; /*230px;*/
 }
 
-
-/*.seventhContainer{
-  position: absolute;
-  top: 59.1vh;
-  left: 9.5vh ;
-  z-index: 0;
-}
-
-.eighthContainer{
-  position:relative;
-  bottom: 29vh;
-}
-
-.sixthContainer{
-  position: relative;
-  bottom: 24vh;
-}
-
-.secondLeft{
-  position: relative;
-  bottom: 200vh;
 /* *****************
   Main Content
 ***************** */
 
 #content img{
   min-width: 100%;
-  height: auto;
+  height: 100%;
+  opacity: 1;
+  backface-visibility: hidden;
 
-  -webkit-box-shadow: 2px 6px 18px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow:    2px 6px 18px -5px rgba(0,0,0,0.75);
-  -o-box-shadow:      2px 6px 18px -5px rgba(0,0,0,0.75);
-  box-shadow:         2px 6px 18px -5px rgba(0,0,0,0.75);
+  -webkit-transition: .5s ease;
+  -moz-transition:    .5s ease;
+  -o-transition:      .5s ease;
+  transition:         .5s ease;
+
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow:    0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -o-box-shadow:      0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:         0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #content .leftRow, #content .fourthContainer{
@@ -210,11 +198,92 @@ header nav ul li:active{
   width: 26%;
 }
 
-#content .sixthContainer,
-#content .ninthContainer
-{
+#content .sixthContainer{
    width: 62.701%;
  }
+
+ /* *****************
+   Image Design
+ ***************** */
+#content .leftRow img:hover{
+content: url('../images/leftLayerImg.jpg');
+}
+
+#content .middleRow img:hover{
+content: url('../images/middleLayerImg.jpg');
+}
+
+#content .rightRow img:hover{
+content: url('../images/secondVerticle.jpg');
+}
+
+#content .fourthContainer img:hover{
+content: url('../images/leftLayerImg.jpg');
+}
+
+#content .fifthContainer img:hover{
+content: url('../images/middleLayerImg.jpg');
+}
+
+#content .sixthContainer img:hover{
+content: url('../images/secondLong.jpg');
+}
+
+/* *****************
+  text hover Design
+***************** */
+
+.middle{
+  opacity: 0;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition:    .5s ease-in-out;
+  -o-transition:      .5s ease-in-out;
+  transition:         .5s ease-in-out;
+
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#content img:hover {
+  opacity: 0.7;
+}
+
+#content .col4:hover .middle{
+  opacity: 1;
+}
+
+.text{
+  background: rgba(81, 119, 189, 0.96);
+  padding: 10px 15px;
+  font-size: .9rem;
+  border-radius: 2px;
+  color: #fff;
+}
+
+#content .leftRow .middle,
+#content .fourthContainer .middle
+{
+  transform: translate(300%, -365%);
+  -o-text-transform: translate(-300%, -370%);
+}
+
+#content .middleRow .middle,
+#content .fifthContainer .middle
+{
+  transform: translate(295%, -270%);
+  -o-text-transform: translate(-225%, -350%);
+}
+
+#content .rightRow .middle{
+  transform: translate(175%, -530%);
+  -o-text-transform: translate(-225%, -350%);
+}
+
+#content .sixthContainer .middle{
+  transform: translate(527%, -450%);
+  -o-text-transform: translate(-225%, -350%);
+}
 /* *****************
   Footer
 ***************** */
