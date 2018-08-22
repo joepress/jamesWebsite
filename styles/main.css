@@ -145,7 +145,7 @@ header nav ul li:active{
 .col4{
   float:left;
   overflow: hidden;
-  padding-left:1.2%;
+  padding-left:2%;
   padding-right: 2.3%; /* 2.5 on kianie macbook */
 }
 
@@ -156,7 +156,7 @@ header nav ul li:active{
 
 .fifthContainer{
   position: relative;
-  bottom: 30.2vh;  /*282px;*/
+  bottom: 28.7vh;  /*282px;*/
 
 }
 
@@ -174,6 +174,7 @@ header nav ul li:active{
   height: 100%;
   opacity: 1;
   backface-visibility: hidden;
+  position: relative;
 
   -webkit-transition: .5s ease;
   -moz-transition:    .5s ease;
@@ -200,6 +201,7 @@ header nav ul li:active{
 
 #content .sixthContainer{
    width: 62.701%;
+   padding-right: 1.4%;
  }
 
  /* *****************
@@ -254,35 +256,52 @@ content: url('../images/secondLong.jpg');
 }
 
 .text{
-  background: rgba(81, 119, 189, 0.96);
-  padding: 10px 15px;
-  font-size: .9rem;
+  background: ;
+  padding:;
+  font-size: 2.7rem;
   border-radius: 2px;
   color: #fff;
 }
 
-#content .leftRow .middle,
-#content .fourthContainer .middle
-{
-  transform: translate(300%, -365%);
-  -o-text-transform: translate(-300%, -370%);
+#content .leftRow .middle{
+  -webkit-transform: translate(365%, -365%);
+  -moz-transform:    translate(365%, -365%);
+  -o-transform:      translate(365%, -365%);
+  transform:         translate(215%, -255%);
 }
 
-#content .middleRow .middle,
-#content .fifthContainer .middle
-{
-  transform: translate(295%, -270%);
-  -o-text-transform: translate(-225%, -350%);
+#content .fourthContainer .middle{
+  position: absolute;
+  left: 45%;
+  top: 35%;
+}
+
+#content .middleRow .middle{
+  -webkit-transform: translate(370%, -270%);
+  -moz-transform:    translate(370%, -270%);
+  -o-transform:      translate(370%, -270%);
+  transform:         translate(215%, -195%);
+
+}
+
+#content .fifthContainer .middle{
+  position: absolute;
+  top: 30%;
+  left: 45%
 }
 
 #content .rightRow .middle{
-  transform: translate(175%, -530%);
-  -o-text-transform: translate(-225%, -350%);
+  -webkit-transform: translate(225%, -540%);
+  -moz-transform:    translate(225%, -540%);
+  -o-transform:      translate(225%, -540%);
+  transform:         translate(125%, -360%);
+
 }
 
 #content .sixthContainer .middle{
-  transform: translate(527%, -450%);
-  -o-text-transform: translate(-225%, -350%);
+  position: absolute;
+  left: 48%;
+  top: 37%;
 }
 /* *****************
   Footer
