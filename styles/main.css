@@ -137,7 +137,7 @@ header nav ul li:active{
 ***************** */
 
 .container{
-  width: 90%;
+  width: 80%;
   margin : 0 auto;
   overflow: hidden;
 }
@@ -145,8 +145,6 @@ header nav ul li:active{
 .col4{
   float:left;
   overflow: hidden;
-  padding-left:2%;
-  padding-right: 2.3%; /* 2.5 on kianie macbook */
 }
 
 .fourthContainer{
@@ -156,13 +154,19 @@ header nav ul li:active{
 
 .fifthContainer{
   position: relative;
-  bottom: 28.7vh;  /*282px;*/
+  bottom: 30.1vh;  /*282px;*/
 
 }
 
 .sixthContainer{
   position: relative;
-  bottom: 24vh; /*230px;*/
+  bottom: 25vh; /*230px;*/
+  float:right;
+}
+
+.leftCorner{
+  position: relative;
+  bottom: 12vh;
 }
 
 /* *****************
@@ -188,7 +192,8 @@ header nav ul li:active{
 }
 
 #content .leftRow, #content .fourthContainer{
-  width: 37.3%;
+  width: 33.3%;
+  margin-right: 2%;
 }
 
 #content .middleRow, #content .fifthContainer{
@@ -197,17 +202,17 @@ header nav ul li:active{
 
 #content .rightRow{
   width: 26%;
+  margin-left:2%;
 }
 
 #content .sixthContainer{
-   width: 62.701%;
-   padding-right: 1.4%;
+   width: 64.7%;
  }
 
  /* *****************
-   Image Design
+   Image Hover Design
  ***************** */
-#content .leftRow img:hover{
+/* #content .leftRow img:hover{
 content: url('../images/leftLayerImg.jpg');
 }
 
@@ -233,7 +238,7 @@ content: url('../images/secondLong.jpg');
 
 /* *****************
   text hover Design
-***************** */
+*****************
 
 .middle{
   opacity: 0;
