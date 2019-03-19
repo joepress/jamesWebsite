@@ -209,36 +209,9 @@ header nav ul li:active{
    width: 64.7%;
  }
 
- /* *****************
-   Image Hover Design
- ***************** */
-/* #content .leftRow img:hover{
-content: url('../images/leftLayerImg.jpg');
-}
-
-#content .middleRow img:hover{
-content: url('../images/middleLayerImg.jpg');
-}
-
-#content .rightRow img:hover{
-content: url('../images/secondVerticle.jpg');
-}
-
-#content .fourthContainer img:hover{
-content: url('../images/leftLayerImg.jpg');
-}
-
-#content .fifthContainer img:hover{
-content: url('../images/middleLayerImg.jpg');
-}
-
-#content .sixthContainer img:hover{
-content: url('../images/secondLong.jpg');
-}
-
 /* *****************
   text hover Design
-*****************
+*****************/
 
 .middle{
   opacity: 0;
@@ -260,54 +233,74 @@ content: url('../images/secondLong.jpg');
   opacity: 1;
 }
 
-.text{
+.middle p{
   background: ;
   padding:;
   font-size: 2.7rem;
-  border-radius: 2px;
   color: #fff;
 }
 
 #content .leftRow .middle{
-  -webkit-transform: translate(365%, -365%);
+  top:27%;
+  left:20.5%;
+  /*-webkit-transform: translate(365%, -365%);
   -moz-transform:    translate(365%, -365%);
   -o-transform:      translate(365%, -365%);
-  transform:         translate(215%, -255%);
+  transform:         translate(190%, -255%);*/
 }
 
 #content .fourthContainer .middle{
-  position: absolute;
-  left: 45%;
-  top: 35%;
+  top: 36%;
+  left:40%;
+}
+
+
+#content .fifthContainer .middle{
+  top: 30%;
+  left:42.5%;
 }
 
 #content .middleRow .middle{
-  -webkit-transform: translate(370%, -270%);
+  top:20%;
+  left:50%;
+  /*-webkit-transform: translate(370%, -270%);
   -moz-transform:    translate(370%, -270%);
   -o-transform:      translate(370%, -270%);
-  transform:         translate(215%, -195%);
+  transform:         translate(215%, -195%);*/
 
-}
-
-#content .fifthContainer .middle{
-  position: absolute;
-  top: 30%;
-  left: 45%
 }
 
 #content .rightRow .middle{
-  -webkit-transform: translate(225%, -540%);
+  top:37%;
+  left:76.5%;
+  /*-webkit-transform: translate(225%, -540%);
   -moz-transform:    translate(225%, -540%);
   -o-transform:      translate(225%, -540%);
-  transform:         translate(125%, -360%);
+  transform:         translate(125%, -360%);*/
 
 }
+
 
 #content .sixthContainer .middle{
-  position: absolute;
-  left: 48%;
-  top: 37%;
+  top:40%;
+  left:44%;
+  /*-webkit-transform: translate(225%, -540%);
+  -moz-transform:    translate(225%, -540%);
+  -o-transform:      translate(225%, -540%);
+  transform:         translate(395%, -300%);*/
+
 }
+
+#content .leftCorner .middle{
+  top:38%;
+  left:39%;
+  /*-webkit-transform: translate(225%, -540%);
+  -moz-transform:    translate(225%, -540%);
+  -o-transform:      translate(225%, -540%);
+  transform:         translate(395%, -300%);*/
+
+}
+
 /* *****************
   Footer
 ***************** */
@@ -340,7 +333,7 @@ footer nav ul{
 footer nav ul li{
   list-style: none;
   float:left;
-  padding: 0 20px;
+  margin: 0 20px;
   cursor: pointer;
   font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
@@ -365,6 +358,10 @@ footer nav ul li:hover{
 footer nav ul li:active{
   color: #000;
 
+}
+
+#contact{
+  margin-right: 0;
 }
 /* *****************
   Footer social
