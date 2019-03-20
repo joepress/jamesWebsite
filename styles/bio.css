@@ -1,0 +1,48 @@
+/*
+  main.CSS
+
+  Colors
+  *******
+
+  black: #000000
+  darker gray: #222222
+  dark gray: #333333
+  gray: #444444
+  light gray: #eeeeee
+  light blue: #00c0ff
+  dark blue: #0090bf
+
+*/
+
+/******************
+General Styles
+******************/
+/*****************
+Layout
+******************/
+#scrollBox{
+  overflow: auto;
+  white-space: nowrap;
+  width: 45%;
+}
+#scrollBox div{
+  display:inline-block;
+  color:black;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 15px;
+  padding:14px;
+}
+#scrollBox p{
+  float:right;
+  padding-left:10px;
+}
+#scrollBox img{
+  padding-top:15px;
+}
+/******************
+Main Content
+******************/
+#topSection img{
+  width:15%;
+}
