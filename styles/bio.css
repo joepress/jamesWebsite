@@ -17,13 +17,63 @@
 /******************
 General Styles
 ******************/
+.bio{
+  font-family: 'Cinzel', serif;
+  line-height: 25px;
+  font-size: 1.2rem;
+  padding:0 20px;
+  margin:2% 10px 1% 0;
+  letter-spacing: 1.5px;
+  font-weight:600;
+}
+
+.first{
+  font-weight:700;
+  padding-right: 5px;
+  font-size: 1.5rem;
+}
+
+#scrollBox::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+#scrollBox::-webkit-scrollbar
+{
+	height:7px;
+	background-color: #F5F5F5;
+  border-radius: 10px;
+}
+#scrollBox::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+#topHr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 90%;
+  margin-top: 50px;
+}
+
+#midHr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 60%;
+  margin-top: 20px;
+}
+
 /*****************
 Layout
 ******************/
 #scrollBox{
   overflow: auto;
   white-space: nowrap;
-  width: 45%;
+  width: 35%;
 }
 #scrollBox div{
   display:inline-block;
@@ -36,13 +86,26 @@ Layout
 #scrollBox p{
   float:right;
   padding-left:10px;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 1.2rem;
 }
 #scrollBox img{
-  padding-top:15px;
+  margin-top:15px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+#bio_1{
+  margin-left:8.5%;
 }
 /******************
 Main Content
 ******************/
 #topSection img{
-  width:15%;
+  width:19%;
+  margin-right:2%;
+  margin-top:3%;
+  box-shadow: 10px 10px 10px 5px grey;
+  border-radius: 2px
 }

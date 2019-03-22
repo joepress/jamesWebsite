@@ -60,7 +60,7 @@ html{
   -webkit-text-shadow: 1px 1px 0px rgba(0,0,0,0.75);
   -moz-text-shadow:    1px 1px 0px rgba(0,0,0,0.75);
   -o-text-shadow:      1px 1px 0px rgba(0,0,0,0.75);
-  text-shadow:         1px 1px 0px rgba(0,0,0,0.75);
+  text-shadow:         2px 2px 5px rgba(0,0,0,0.75);
 
   -webkit-transition: color 0.20s ease-in-out;
   -moz-transition:    color 0.20s ease-in-out;
@@ -116,10 +116,10 @@ header nav ul li {
   font-weight: 600;
   opacity: 0.7;
 
-  -webkit-text-shadow: 1px 1px 0px rgba(0,0,0,0.75);
-  -moz-text-shadow:    1px 1px 0px rgba(0,0,0,0.75);
-  -o-text-shadow:      1px 1px 0px rgba(0,0,0,0.75);
-  text-shadow:         1px 1px 0px rgba(0,0,0,0.75);
+  -webkit-text-shadow: 2px 2px 9px rgba(0,0,0,0.75);
+  -moz-text-shadow:    2px 2px 9px rgba(0,0,0,0.75);
+  -o-text-shadow:      2px 2px 9px rgba(0,0,0,0.75);
+  text-shadow:         2px 2px 9px rgba(0,0,0,0.75);
 
   -webkit-transition: color 0.25s ease-in-out;
   -moz-transition:    color 0.25s ease-in-out;
@@ -320,10 +320,10 @@ footer p{
   font-weight: 500;
 
 
-  -webkit-text-shadow: 0 1px 0px rgba(0,0,0,0.75);
-  -moz-text-shadow:    0 1px 0px rgba(0,0,0,0.75);
-  -o-text-shadow:      0 1px 0px rgba(0,0,0,0.75);
-  text-shadow:         0 1px 0px rgba(0,0,0,0.75);
+  -webkit-text-shadow: 2px 2px 9px rgba(0,0,0,0.75);
+  -moz-text-shadow:    2px 2px 9px rgba(0,0,0,0.75);
+  -o-text-shadow:      2px 2px 9px rgba(0,0,0,0.75);
+  text-shadow:         2px 2px 9px rgba(0,0,0,0.75);
 }
 
 footer nav{
@@ -349,10 +349,10 @@ footer nav ul li{
   -o-transition:      width 0.20s ease-in-out;
   transition:         width 0.20s ease-in-out;
 
-  -webkit-text-shadow: 0 1px 0px rgba(0,0,0,0.75);
-  -moz-text-shadow:    0 1px 0px rgba(0,0,0,0.75);
-  -o-text-shadow:      0 1px 0px rgba(0,0,0,0.75);
-  text-shadow:         0 1px 0px rgba(0,0,0,0.75);
+  -webkit-text-shadow: 2px 2px 9px rgba(0,0,0,0.75);
+  -moz-text-shadow:    2px 2px 9px rgba(0,0,0,0.75);
+  -o-text-shadow:      2px 2px 9px rgba(0,0,0,0.75);
+  text-shadow:         2px 2px 9px rgba(0,0,0,0.75);
 }
 
 footer nav ul li:hover{
@@ -394,6 +394,7 @@ footer #socialFooter ul li img{
   -moz-transition:    width 0.20s ease-in-out;
   -o-transition:      width 0.20s ease-in-out;
   transition:         width 0.20s ease-in-out;
+
 }
 
 footer #socialFooter ul li img:hover{
