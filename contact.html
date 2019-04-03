@@ -7,6 +7,7 @@
     <link rel ='stylesheet' type ='text/css' href ='styles/main.css'>
     <link rel ='stylesheet' type ='text/css' href ='styles/float-grid.css'>
     <link rel ='stylesheet' type ='text/css' href ='styles/mediaQueries.css'>
+    <link rel ='stylesheet' type ='text/css' href ='styles/contact.css'>
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <title>James Photography | James Pressley</title>
   </head>
@@ -29,55 +30,52 @@
       </div> <!-- end of nav container -->
     </header> <!-- end of header -->
 
-    <div id ='content' class ='container clearfix'>
-      <section class ='topRow '>
+    <div class='container contact'>
 
-        <div class ='col4 leftRow clearfix'><a><img class ='topLeft' src ='images/topLeft.jpg'></a>
-          <div class ='middle'>
-            <p class ='text'>Text</p>
-          </div>
-        </div>
+        <section class ='leftSection'>
 
-        <div class ='col4 middleRow clearfix'><a><img class ='topMiddle' src ='images/topMiddleImg.jpg'></a>
-          <div class ='middle'>
-            <p class ='text'>Text</p>
-          </div>
-        </div>
+            <ul class='contactInfo'>
+              <li><img src='https://img.icons8.com/ios-glyphs/30/000000/place-marker.png' alt='location pin'>Location holder</li>
+              <li><img src='https://img.icons8.com/metro/26/000000/new-post.png' alt='business email'>Business Email </li>
+              <li><img src='https://img.icons8.com/windows/32/000000/film-reel.png' alt='job title'><img src='https://img.icons8.com/ios-glyphs/30/000000/compact-camera.png' alt='job title'>Cinematoghrapher/Photograhper</li>
+            </ul>
 
-        <div class ='col4 clearfix rightRow'><a><img class ='topRight' src ='images/rightImg.jpg'></a>
-          <div class ='middle'>
-            <p class ='text'>Text</p>
-          </div>
-        </div>
+            <ul class='contactSocial'>
+              <li><a href='#'><img src='https://img.icons8.com/windows/32/000000/instagram-new.png' alt='ig icon'></a></li>
+              <li><a href='#'><img src='https://img.icons8.com/windows/32/000000/vimeo.png' alt='vimeo icon'></a></li>
+              <li><a href='#'><img src='https://img.icons8.com/material/24/000000/youtube-play.png' alt='youtube icon'></a></li>
+            </ul>
 
+        </section>
 
-        <div class ='col4 fourthContainer clearfix'><a><img class ='fourthImg' src ='images/topLeft.jpg'></a>
-          <div class ='middle'>
-            <p class ='text'>Text</p>
-          </div>
-        </div>
+        <section class='rightSection'>
 
-        <div class ='col4 fifthContainer clearfix'><a><img class ='fifthImg' src ='images/topMiddleImg.jpg'></a>
-          <div class ='middle'>
-            <p class ='text'>Text</p>
-          </div>
-        </div>
+          <form action='#' method='#'>
 
-        <div class ='col4 sixthContainer clearfix'><a><img class ='sixthImg' src ='images/longImg.jpg'></a>
-          <div class ='middle'>
-            <p class ='text'>Text</p>
-          </div>
-        </div>
+            <input class='name' type='text' placeholder='First & Last name here'>
 
-        <div class ='col4 leftRow clearfix leftCorner'><a><img class ='bottomLeft' src ='images/topLeft.jpg'></a>
-          <div class ='middle'>
-            <p class ='text'>Text</p>
-          </div>
-        </div>
+            <input class='email' type='text' placeholder='Email'>
 
-      </section> <!-- end of main content -->
+            <div class='radioButtons'>
 
-    </div> <!-- end of container -->
+              <label for='filmButton'>Film</label>
+              <input type='radio' id='filmButton' value='Film'>
+
+              <label for='photograhButton'>Photographs</label>
+              <input type='radio' id='photograhButton' value='Photographs'>
+
+              <label for='editButton'>Editing</label>
+              <input type='radio' id='editButton' value='Editing'>
+
+            </div>
+
+            <textarea rows='6' cols='40' placeholder='Message aqui'></textarea>
+            <input class='submit' type='submit'>
+
+          </form> <!-- end of form -->
+
+        </section>                            <!-- end of right section -->
+    </div>                                    <!-- end of container div -->
 
 
     <footer>

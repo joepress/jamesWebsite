@@ -335,7 +335,12 @@ footer nav ul{
   padding: 0;
 }
 
-footer nav ul li{
+footer nav ul li a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+footer nav ul li {
   list-style: none;
   float:left;
   margin: 0 20px;
@@ -343,6 +348,8 @@ footer nav ul li{
   font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
+  text-decoration: none;
+
 
   -webkit-transition: width 0.20s ease-in-out;
   -moz-transition:    width 0.20s ease-in-out;
@@ -355,14 +362,13 @@ footer nav ul li{
   text-shadow:         2px 2px 9px rgba(0,0,0,0.75);
 }
 
-footer nav ul li:hover{
+footer nav ul li a:hover{
   color: rgba(81, 119, 189, 0.96);
 
 }
 
-footer nav ul li:active{
+footer nav ul li a:active{
   color: #000;
-
 }
 
 #contact{
@@ -400,6 +406,9 @@ footer #socialFooter ul li img{
 footer #socialFooter ul li img:hover{
   width: 100%;
   height:auto;
+}
+footer #socialFooter ul li img:active{
+  bottom: 1px;
 }
 
 /* *****************

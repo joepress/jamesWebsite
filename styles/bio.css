@@ -24,12 +24,13 @@ General Styles
   padding:0 20px;
   margin:2% 10px 1% 0;
   letter-spacing: 1.5px;
-  font-weight:600;
+  font-weight:575;
 }
 
 .first{
-  font-weight:700;
-  padding-right: 5px;
+  font-weight:900;
+  padding-right: 10px;
+  padding-bottom:10px;
   font-size: 1.5rem;
 }
 
@@ -74,6 +75,8 @@ Layout
   overflow: auto;
   white-space: nowrap;
   width: 35%;
+  margin-top:35px;
+  margin-bottom: 65px;
 }
 #scrollBox div{
   display:inline-block;
