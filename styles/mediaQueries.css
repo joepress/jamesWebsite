@@ -11,7 +11,7 @@
 
   .fourthContainer{
     position: relative;
-    bottom: 20vh; /*165px;*/
+    bottom: 18vh; /*165px;*/
   }
 
   .fifthContainer{
@@ -48,5 +48,6 @@
     transform: translate(527%, -450%);
     -o-text-transform: translate(-225%, -350%);
   }
+
 
 }

@@ -1,0 +1,291 @@
+@media only screen and (max-width: 1440px){
+  .contact{
+    width: 70%;
+    margin-top:6%;
+  }
+
+  footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+  }
+
+  form{
+    position: relative;
+    right: 10%;
+  }
+
+  .name{
+    margin-bottom: 45px;
+    padding-left: 75px
+  }
+
+  .email{
+    margin-bottom: 35px;
+    padding-left: 55px;
+  }
+
+  .name,
+  .email{
+    font-size: 1.1rem;
+    /*padding:*/
+    width:350px;
+    height:55px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 15px;
+  }
+
+  .radioButtons{
+    margin-right: 30px;
+    margin-top:40px;
+    margin-bottom: ;
+    height:30px;
+  }
+
+  .radioButtons label,
+  .radioButtons input{
+    margin-right:;
+  }
+
+  .radioButtons label{
+    margin-right:31px;
+  }
+
+  .radioButtons input:checked{
+    background-color: black:
+    opacity:0;
+  }
+
+  .rightSection input:focus{
+    outline:none;
+    border:2px solid rgba(0,0,0,0.55);
+  }
+
+   .rightSection textarea{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    border:1px solid rgba(0,0,0,0.75);
+    width:375px;
+    height:150px;
+    margin-top:;
+    text-align: center;
+    padding-top:65px;
+    border-radius:3px;
+    border:none;
+    resize: none;
+    outline:none;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .radioButtons input{
+    cursor: pointer;
+    position: absolute;
+  }
+
+  #filmButton{
+    left:4%;
+  }
+
+  /* *****************
+    check box design
+  ***************** */
+
+  input[type=checkbox] {
+    visibility: hidden;
+}
+
+  .firstCheck {
+      width: 25px;
+      margin: 20px 100px;
+      position: relative;
+      display: ;
+  }
+
+  .firstCheck label {
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 230%;
+    background: #eee;
+    border:1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+
+  .firstCheck label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 3px;
+    background: transparent;
+    top: 5px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+
+    transform: rotate(-45deg);
+}
+
+.firstCheck label:hover::after {
+    opacity: 0.5;
+}
+
+.firstCheck input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+#film{
+  position: relative;
+  top:2px;
+  right:50px;
+  border:none;
+  background:none;
+  width:0;
+  height:0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: .7px;
+  box-shadow: none;
+  margin-right: 0;
+}
+
+#film:after{
+  content:none;
+}
+
+/* *****************
+  Second Check Design
+***************** */
+.secondCheck {
+    width: 25px;
+    margin: 20px 100px;
+    position: relative;
+}
+
+.secondCheck label {
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom:36px;
+    left: 5px;
+    background: #eee;
+    border:1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+
+.secondCheck label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 3px;
+    background: transparent;
+    top: 5px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+
+    transform: rotate(-45deg);
+}
+
+.secondCheck label:hover::after {
+    opacity: 0.5;
+}
+
+.secondCheck input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+#photograph{
+  position: relative;
+  bottom: 36px;
+  left:38px;
+  border:none;
+  background:none;
+  width:0;
+  height:0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: .7px;
+  box-shadow: none;
+}
+
+#photograph:after{
+  content:none;
+}
+
+/* *****************
+  third Check Design
+***************** */
+
+.thirdCheck {
+    width: 25px;
+    margin: 20px 100px;
+    position: relative;
+}
+
+.thirdCheck label {
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom:73px;
+    left: 169px;
+    background: #eee;
+    border:1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+
+.thirdCheck label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 3px;
+    background: transparent;
+    top: 5px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+
+    transform: rotate(-45deg);
+}
+
+.thirdCheck label:hover::after {
+    opacity: 0.5;
+}
+
+.thirdCheck input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+#editing{
+  position: relative;
+  bottom: 74px;
+  left:201px;
+  border:none;
+  background:none;
+  width:0;
+  height:0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: .7px;
+  box-shadow: none;
+}
+
+#editing:after{
+  content:none;
+}
+
+}

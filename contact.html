@@ -6,9 +6,11 @@
     <link rel ='stylesheet' type ='text/css' href ='styles/normalize.css'>
     <link rel ='stylesheet' type ='text/css' href ='styles/main.css'>
     <link rel ='stylesheet' type ='text/css' href ='styles/float-grid.css'>
-    <link rel ='stylesheet' type ='text/css' href ='styles/mediaQueries.css'>
     <link rel ='stylesheet' type ='text/css' href ='styles/contact.css'>
+    <link rel ='stylesheet' type ='text/css' href ='styles/mediaQueries.css'>
+    <link rel ='stylesheet' type ='text/css' href ='styles/mediaQueryContact.css'>
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <title>James Photography | James Pressley</title>
   </head>
   <body>
@@ -54,18 +56,36 @@
 
             <input class='name' type='text' placeholder='First & Last name here'>
 
-            <input class='email' type='text' placeholder='Email'>
+            <input class='email' type='text' placeholder='YourEmail456@domain.com'>
 
             <div class='radioButtons'>
 
-              <label for='filmButton'>Film</label>
-              <input type='radio' id='filmButton' value='Film'>
+              <div class='firstCheck'>
+                <label id='film'>Film</label>
+                <input type="checkbox" value="1" id='filmCheck' name="" />
+                <label for="filmCheck"></label>
+              </div>
+
+              <div class='secondCheck'>
+                <label id='photograph'>Photographs</label>
+                <input type="checkbox" value="1" id='photographyCheck' name="" />
+                <label for="photographyCheck"></label>
+              </div>
+
+              <div class='thirdCheck'>
+                <label id='editing'>Editing</label>
+                <input type="checkbox" value="1" id='editingCheck' name="" />
+                <label for="editingCheck"></label>
+              </div>
+
+              <!--<label for='filmButton'>Film</label>
+              <input type='checkbox' id='filmButton' value='Film'>
 
               <label for='photograhButton'>Photographs</label>
-              <input type='radio' id='photograhButton' value='Photographs'>
+              <input type='checkbox' id='photograhButton' value='Photographs'>
 
               <label for='editButton'>Editing</label>
-              <input type='radio' id='editButton' value='Editing'>
+              <input type='checkbox' id='editButton' value='Editing'>-->
 
             </div>
 
